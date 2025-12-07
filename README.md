@@ -13,8 +13,11 @@ Amazon product reviews contain valuable information, but they are unstructured t
 To make them easier to understand, I built a system that:
 
 ✔ Predicts whether a review is positive or negative
+
 ✔ Shows a confidence score
+
 ✔ Finds common topics in many reviews
+
 ✔ Provides a web interface for users
 
 (Implemented using Streamlit and deployed on HuggingFace Spaces)
