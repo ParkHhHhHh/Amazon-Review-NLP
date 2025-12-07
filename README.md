@@ -1,9 +1,9 @@
 ## 📦 Amazon Review NLP Project
-*Sentiment Analysis + Topic Modeling + Streamlit Web App*
+***Sentiment Analysis + Topic Modeling + Streamlit Web App***
 
 This project analyzes Amazon product reviews using Natural Language Processing (NLP).
-I built a full pipeline that includes text preprocessing, sentiment classification, topic modeling, and an interactive Streamlit dashboard.
-This project is part of my Data Science transfer application portfolio.
+I built a full pipeline that includes **text preprocessing, sentiment classification, topic modeling, and an interactive Streamlit dashboard**.
+This project is part of my **Data Science transfer application portfolio**.
 
 ---
 
@@ -12,47 +12,47 @@ This project is part of my Data Science transfer application portfolio.
 Amazon product reviews contain valuable information, but they are unstructured text.
 To make them easier to understand, I built a system that:
 
-✔ Predicts whether a review is positive or negative
+✔ **Predicts whether a review is positive or negative**
 
-✔ Shows a confidence score
+✔ **Shows a confidence score**
 
-✔ Finds common topics in many reviews
+✔ **Finds common topics in many reviews**
 
-✔ Provides a web interface for users
+✔ **Provides a web interface for users**
 
 (Implemented using Streamlit and deployed on HuggingFace Spaces)
 
 This project helped me practice:
 
-Python NLP processing
+- Python NLP processing
 
-Classical machine learning
+- Classical machine learning
 
-Unsupervised topic modeling
+- Unsupervised topic modeling
 
-Model deployment and UI design
+ -Model deployment and UI design
 
 ---
 
 ## 📊 2. Dataset
 
-Source: Kaggle — Amazon Reviews Dataset
+**Source**: Kaggle — Amazon Reviews Dataset
 
 I used the fields:
 
-reviewText (written review)
+- reviewText (written review)
 
-overall (rating from 1 to 5)
+- overall (rating from 1 to 5)
 
-Labeling
+**Labeling**
 
 To simplify the classification task:
 
-1–2 → Negative (0)
+- **1–2 → Negative (0)**
 
-4–5 → Positive (1)
+- **4–5 → Positive (1)**
 
-3 → removed (neutral)
+- **3 → removed (neutral)**
 
 This helps the model focus on clear examples.
 
