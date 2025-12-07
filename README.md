@@ -5,6 +5,8 @@ This project analyzes Amazon product reviews using Natural Language Processing (
 I built a full pipeline that includes text preprocessing, sentiment classification, topic modeling, and an interactive Streamlit dashboard.
 This project is part of my Data Science transfer application portfolio.
 
+---
+
 ## 🚀 1. Project Overview
 
 Amazon product reviews contain valuable information, but they are unstructured text.
@@ -26,6 +28,8 @@ Classical machine learning
 Unsupervised topic modeling
 
 Model deployment and UI design
+
+---
 
 ## 📊 2. Dataset
 
@@ -49,6 +53,8 @@ To simplify the classification task:
 
 This helps the model focus on clear examples.
 
+---
+
 ## 🧹 3. Preprocessing
 
 Before training the model, each review is cleaned:
@@ -62,6 +68,8 @@ Stopword removal
 Lemmatization
 
 These steps improve the quality of the text features.
+
+---
 
 ## 🤖 4. Sentiment Classification Model
 
@@ -80,6 +88,8 @@ models/tfidf.pkl
 
 models/baseline_lr.pkl
 
+---
+
 ## 🧠 5. Topic Modeling
 
 For analyzing many reviews at once, I used:
@@ -91,6 +101,8 @@ Extracts major topics and keywords
 Helps understand general trends in reviews (e.g., battery, size, quality)
 
 These topics are shown inside the Streamlit dashboard.
+
+---
 
 ## 🖥️ 6. Streamlit Web Application
 
@@ -114,19 +126,35 @@ Helps summarize user feedback quickly
 
 This app is deployed on HuggingFace Spaces.
 
+---
+
 ## 🧪 7. How to Run the App Locally
 1) Install dependencies
+```bash
+
 pip install -r requirements.txt
 
-2) Train the model (optional)
+```
+
+3) Train the model (optional)
+```bash
+
 python train_baseline.py
 
-3) Run the app
+```
+
+5) Run the app
+```bash
+
 streamlit run app.py
+
+```
+
+---
 
 ## 📁 8. Folder Structure
 
-
+```bash
 📦 amazon-review-nlp
  ┣ app.py
  ┣ requirements.txt
@@ -140,19 +168,29 @@ streamlit run app.py
  │   ┗ baseline_lr.pkl
  ┗ data/
      ┗ amazon_reviews.csv
+```
+---
 
 ## 📈 9. Results
-Component	Summary
-Model	Logistic Regression + TF-IDF
-Accuracy	~0.90 (varies by dataset)
-Topic Modeling	LDA (5 topics default)
-Deployment	HuggingFace Spaces + Streamlit
+| Component      | Summary                        |
+| -------------- | ------------------------------ |
+| Model          | Logistic Regression + TF-IDF   |
+| Accuracy       | ~0.90 (varies by dataset)      |
+| Topic Modeling | LDA (5 topics default)         |
+| Deployment     | HuggingFace Spaces + Streamlit |
+
 
 Example prediction:
+
+```bash
 
 Review: "The product works well, but shipping was slow."
 Sentiment: Positive  
 Confidence: 0.84
+
+```
+
+---
 
 ## 🔧 10. Skills I Practiced
 
@@ -168,6 +206,8 @@ Creating user-friendly dashboards
 
 Deploying AI apps on the web
 
+---
+
 ## 🔭 11. Future Improvements
 
 Add DistilBERT for better sentiment accuracy
@@ -178,7 +218,12 @@ Add results visualization (bar charts, word clouds)
 
 Improve error analysis
 
+---
+
 ## 📬 Contact
 
 Email:roy040315@gmail.com
-GitHub: http://
+GitHub: http://github.com/ParkHhHhHh
+
+---
+
