@@ -1,5 +1,5 @@
 ## 📦 Amazon Review NLP Project
-Sentiment Analysis + Topic Modeling + Streamlit Web App
+*Sentiment Analysis + Topic Modeling + Streamlit Web App*
 
 This project analyzes Amazon product reviews using Natural Language Processing (NLP).
 I built a full pipeline that includes text preprocessing, sentiment classification, topic modeling, and an interactive Streamlit dashboard.
