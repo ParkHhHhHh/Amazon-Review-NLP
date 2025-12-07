@@ -1,4 +1,4 @@
-### 📦 Amazon Review NLP Project
+## 📦 Amazon Review NLP Project
 ***Sentiment Analysis + Topic Modeling + Streamlit Web App***
 
 This project analyzes Amazon product reviews using Natural Language Processing (NLP).
@@ -7,7 +7,7 @@ This project is part of my **Data Science transfer application portfolio**.
 
 ---
 
-### 🚀 1. Project Overview
+## 🚀 1. Project Overview
 
 Amazon product reviews contain valuable information, but they are unstructured text.
 To make them easier to understand, I built a system that:
@@ -34,7 +34,7 @@ This project helped me practice:
 
 ---
 
-### 📊 2. Dataset
+## 📊 2. Dataset
 
 **Source**: Kaggle — Amazon Reviews Dataset
 
@@ -62,13 +62,13 @@ This helps the model focus on clear examples.
 
 Before training the model, each review is cleaned:
 
-Lowercase conversion
+- Lowercase conversion
 
-Removing special characters
+- Removing special characters
 
-Stopword removal
+- Stopword removal
 
-Lemmatization
+- Lemmatization
 
 These steps improve the quality of the text features.
 
@@ -78,18 +78,18 @@ These steps improve the quality of the text features.
 
 I used a simple but effective classical machine learning approach:
 
-TF-IDF for text vectorization
+- **TF-IDF** for text vectorization
 
-Logistic Regression for classification
+- **Logistic Regression** for classification
 
 This baseline model is fast, interpretable, and works surprisingly well for text.
-Test accuracy is usually around 90% depending on the dataset size.
+Test accuracy is usually around **90%** depending on the dataset size.
 
 Model files saved:
 
-models/tfidf.pkl
+- `models/tfidf.pkl`
 
-models/baseline_lr.pkl
+- `models/baseline_lr.pkl`
 
 ---
 
@@ -97,11 +97,11 @@ models/baseline_lr.pkl
 
 For analyzing many reviews at once, I used:
 
-LDA (Latent Dirichlet Allocation)
+- LDA (Latent Dirichlet Allocation)
 
-Extracts major topics and keywords
+- Extracts major topics and keywords
 
-Helps understand general trends in reviews (e.g., battery, size, quality)
+- Helps understand general trends in reviews (e.g., battery, size, quality)
 
 These topics are shown inside the Streamlit dashboard.
 
@@ -111,23 +111,23 @@ These topics are shown inside the Streamlit dashboard.
 
 The web app includes:
 
-1) Single Review Analysis
+### 1) Single Review Analysis
 
-Enter any review text
+- Enter any review text
 
-See sentiment prediction
+- See sentiment prediction
 
-View confidence score
+- View confidence score
 
-2) CSV Upload for Topic Modeling
+### 2) CSV Upload for Topic Modeling
 
-Upload a CSV with a reviewText column
+- Upload a CSV with a reviewText column
 
-The app extracts top words for each topic
+- The app extracts top words for each topic
 
-Helps summarize user feedback quickly
+- Helps summarize user feedback quickly
 
-This app is deployed on HuggingFace Spaces.
+This app is deployed on **HuggingFace Spaces**.
 
 ---
 
@@ -197,36 +197,36 @@ Confidence: 0.84
 
 ## 🔧 10. Skills I Practiced
 
-Python (Pandas, scikit-learn, NLTK)
+- Python (Pandas, scikit-learn, NLTK)
 
-Building machine learning pipelines
+- Building machine learning pipelines
 
-Working with real-world text data
+- Working with real-world text data
 
-Topic modeling (LDA)
+- Topic modeling (LDA)
 
-Creating user-friendly dashboards
+- Creating user-friendly dashboards
 
-Deploying AI apps on the web
+- Deploying AI apps on the web
 
 ---
 
 ## 🔭 11. Future Improvements
 
-Add DistilBERT for better sentiment accuracy
+- Add DistilBERT for better sentiment accuracy
 
-Use BERTopic for more advanced topic modeling
+- Use BERTopic for more advanced topic modeling
 
-Add results visualization (bar charts, word clouds)
+- Add results visualization (bar charts, word clouds)
 
-Improve error analysis
+- Improve error analysis
 
 ---
 
 ## 📬 Contact
 
-Email:roy040315@gmail.com
-GitHub: http://github.com/ParkHhHhHh
+**Email**:roy040315@gmail.com
+**GitHub**: http://github.com/ParkHhHhHh
 
 ---
 
