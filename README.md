@@ -97,7 +97,7 @@ Model files saved:
 
 For analyzing many reviews at once, I used:
 
-- LDA (Latent Dirichlet Allocation)
+- **LDA (Latent Dirichlet Allocation)**
 
 - Extracts major topics and keywords
 
@@ -132,21 +132,21 @@ This app is deployed on **HuggingFace Spaces**.
 ---
 
 ## 🧪 7. How to Run the App Locally
-1) Install dependencies
+### 1) Install dependencies
 ```bash
 
 pip install -r requirements.txt
 
 ```
 
-3) Train the model (optional)
+### 2) Train the model (optional)
 ```bash
 
 python train_baseline.py
 
 ```
 
-5) Run the app
+### 3) Run the app
 ```bash
 
 streamlit run app.py
@@ -175,13 +175,12 @@ streamlit run app.py
 ---
 
 ## 📈 9. Results
-| Component      | Summary                        |
+| **Component**  | **Summary**                    |
 | -------------- | ------------------------------ |
 | Model          | Logistic Regression + TF-IDF   |
 | Accuracy       | ~0.90 (varies by dataset)      |
 | Topic Modeling | LDA (5 topics default)         |
 | Deployment     | HuggingFace Spaces + Streamlit |
-
 
 Example prediction:
 
@@ -226,6 +225,7 @@ Confidence: 0.84
 ## 📬 Contact
 
 **Email**:roy040315@gmail.com
+
 **GitHub**: http://github.com/ParkHhHhHh
 
 ---
