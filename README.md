@@ -40,9 +40,9 @@ This project helped me practice:
 
 I used the fields:
 
-- 'reviewText' (written review)
+- ### 'reviewText' (written review)
 
-- 'overall' (rating from 1 to 5)
+- ### 'overall' (rating from 1 to 5)
 
 **Labeling**
 
