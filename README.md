@@ -1,4 +1,4 @@
-## 📦 Amazon Review NLP Project
+### 📦 Amazon Review NLP Project
 ***Sentiment Analysis + Topic Modeling + Streamlit Web App***
 
 This project analyzes Amazon product reviews using Natural Language Processing (NLP).
@@ -7,7 +7,7 @@ This project is part of my **Data Science transfer application portfolio**.
 
 ---
 
-## 🚀 1. Project Overview
+### 🚀 1. Project Overview
 
 Amazon product reviews contain valuable information, but they are unstructured text.
 To make them easier to understand, I built a system that:
@@ -34,15 +34,15 @@ This project helped me practice:
 
 ---
 
-## 📊 2. Dataset
+### 📊 2. Dataset
 
 **Source**: Kaggle — Amazon Reviews Dataset
 
 I used the fields:
 
-- ### 'reviewText' (written review)
+- **'reviewText'** (written review)
 
-- ### 'overall' (rating from 1 to 5)
+- **'overall'** (rating from 1 to 5)
 
 **Labeling**
 
