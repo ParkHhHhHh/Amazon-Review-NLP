@@ -226,7 +226,7 @@ Confidence: 0.84
 
 **Email**:roy040315@gmail.com
 
-**GitHub**: (https://github.com/ParkHhHhHh)
+**GitHub**: https://github.com/ParkHhHhHh
 
 ---
 
