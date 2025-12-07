@@ -27,7 +27,7 @@ Unsupervised topic modeling
 
 Model deployment and UI design
 
-📊 2. Dataset
+## 📊 2. Dataset
 
 Source: Kaggle — Amazon Reviews Dataset
 
@@ -49,7 +49,7 @@ To simplify the classification task:
 
 This helps the model focus on clear examples.
 
-🧹 3. Preprocessing
+## 🧹 3. Preprocessing
 
 Before training the model, each review is cleaned:
 
@@ -63,7 +63,7 @@ Lemmatization
 
 These steps improve the quality of the text features.
 
-🤖 4. Sentiment Classification Model
+## 🤖 4. Sentiment Classification Model
 
 I used a simple but effective classical machine learning approach:
 
@@ -80,7 +80,7 @@ models/tfidf.pkl
 
 models/baseline_lr.pkl
 
-🧠 5. Topic Modeling
+## 🧠 5. Topic Modeling
 
 For analyzing many reviews at once, I used:
 
@@ -92,7 +92,7 @@ Helps understand general trends in reviews (e.g., battery, size, quality)
 
 These topics are shown inside the Streamlit dashboard.
 
-🖥️ 6. Streamlit Web Application
+## 🖥️ 6. Streamlit Web Application
 
 The web app includes:
 
@@ -114,7 +114,7 @@ Helps summarize user feedback quickly
 
 This app is deployed on HuggingFace Spaces.
 
-🧪 7. How to Run the App Locally
+## 🧪 7. How to Run the App Locally
 1) Install dependencies
 pip install -r requirements.txt
 
@@ -124,7 +124,9 @@ python train_baseline.py
 3) Run the app
 streamlit run app.py
 
-📁 8. Folder Structure
+## 📁 8. Folder Structure
+
+
 📦 amazon-review-nlp
  ┣ app.py
  ┣ requirements.txt
@@ -139,7 +141,7 @@ streamlit run app.py
  ┗ data/
      ┗ amazon_reviews.csv
 
-📈 9. Results
+## 📈 9. Results
 Component	Summary
 Model	Logistic Regression + TF-IDF
 Accuracy	~0.90 (varies by dataset)
@@ -152,7 +154,7 @@ Review: "The product works well, but shipping was slow."
 Sentiment: Positive  
 Confidence: 0.84
 
-🔧 10. Skills I Practiced
+## 🔧 10. Skills I Practiced
 
 Python (Pandas, scikit-learn, NLTK)
 
@@ -166,7 +168,7 @@ Creating user-friendly dashboards
 
 Deploying AI apps on the web
 
-🔭 11. Future Improvements
+## 🔭 11. Future Improvements
 
 Add DistilBERT for better sentiment accuracy
 
@@ -176,7 +178,7 @@ Add results visualization (bar charts, word clouds)
 
 Improve error analysis
 
-📬 Contact
+## 📬 Contact
 
-Email: your_email_here
-GitHub: your_github_here
+Email:roy040315@gmail.com
+GitHub: http://
